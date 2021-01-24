@@ -49,12 +49,12 @@ h4 {
   margin: 20px 0;
 }
 
-.inc-exp-container > div {
+.inc-exp-container>div {
   flex: 1;
   text-align: center;
 }
 
-.inc-exp-container > div:first-of-type {
+.inc-exp-container>div:first-of-type {
   border-right: 1px solid #dedede;
 }
 
@@ -160,4 +160,18 @@ input[type='number'] {
   cursor: pointer;
   pointer-events: none;
   opacity: 0.5;
+}
+
+.app-title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 28px;
+  color: #10dfc2;
+  padding:20px;
+}
+
+.app-balance {
+  text-align: center;
+  padding: 15px 0px;
 }
